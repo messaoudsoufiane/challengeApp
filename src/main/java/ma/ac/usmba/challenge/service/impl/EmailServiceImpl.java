@@ -14,7 +14,7 @@ public class EmailServiceImpl implements EmailService {
     @Autowired
     private JavaMailSender javaMailSender;
 
-    private final String senderEmail="abram@smallblueidea.com";
+    private final String senderEmail="YourEmailAdress@PostMarkupp.com";
     @Override
     public void SendEmailAlert(EmailDetails emailDetails) {
 
